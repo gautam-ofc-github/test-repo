@@ -1,4 +1,4 @@
-# Git & Github -- The Full Cource
+# Git & Github - The Full Cource
 
 A fact-paced cource for getting upto speed with Git and Github.
 
