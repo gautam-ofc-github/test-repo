@@ -24,7 +24,7 @@ use ``` git fetch ```
 
   * instead
 
-    use ``` git merge origim /master```
+    use ``` git merge origin /master```
 
 > **__To Combine Both__** <br/>
 use ```git pull orign BranchNameHere```
@@ -88,3 +88,10 @@ use ```git checkout -b myNewCoolBranch``` (similar to git pull)
 
 > **__To Switch to Previous Branch__** <br/>
 use ```git checkout -```
+
+## Merge Conflict
+we can megre the coflict manually using editor OR <br/>
+
+use ```git merge --abort``` to go back to Original State
+
+> Post that make sure you add and commit your changes
