@@ -26,6 +26,9 @@ use ``` git fetch ```
 
     use ``` git merge origim /master```
 
+> **__To Combine Both__** <br/>
+use ```git pull orign BranchNameHere```
+
 ***
 
 # To Create a Clone into new Folder
@@ -74,4 +77,9 @@ use ``` git branch D BranchToDelete```
 use ```git checkout TheBranchNameToSwitch```
 
 ### Note:
-* If we are making any changes while we are in other branch, those won't be visibe in Mater (until merged)
+* If we are making any changes while we are in other branch, those won't be visibe in Mater (until merged and is commite in the Other Branch)
+
+### Some Cool Technique
+
+> **__If You Wana Create and Checkout to a New Branch at the same time__**<br/>
+use ```git checkout -b myNewCoolBranch``` (similar to git pull)
