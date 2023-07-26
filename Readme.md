@@ -83,3 +83,8 @@ use ```git checkout TheBranchNameToSwitch```
 
 > **__If You Wana Create and Checkout to a New Branch at the same time__**<br/>
 use ```git checkout -b myNewCoolBranch``` (similar to git pull)
+
+***
+
+> **__To Switch to Previous Branch__** <br/>
+use ```git checkout -```
