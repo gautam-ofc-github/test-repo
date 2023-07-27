@@ -147,3 +147,22 @@ Once we have added a file for Commit, the file gets into stagging area and it re
 > ``` git  reset fileNameHere```<br>
 OR<br>
 > ``` git reset``` to remove all from stagging
+
+## in case we have commited the changes, we can revert the commit to previoius state by grabbing the ID (SHA) of that current commit:
+
+> ```git log```
+
+copy the id and
+
+> ``` git reset theCommitIdHereExample8765scfsdfgd```
+
+this wont be deleting or modifying the file.
+***
+***
+
+# RESET HARD
+## in case we have commited the changes, and we want to delete it and go to Original State:
+
+> ``` git reset --hard theCommitIdHereExample8765scfsd```
+
+ ⚠ In this case we cannot retrieve the lost file.
